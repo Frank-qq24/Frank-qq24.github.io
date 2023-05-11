@@ -1,0 +1,62 @@
+.animated-text {
+    animation: colorChange 3s infinite; /* nombre de la animación, duración y repetición */
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: red;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: green;
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .bar {
+    width: 0;
+    height: 5px;
+    background-color: blue;
+    position: relative;
+    animation: sweep 2s ease-in-out forwards;
+  }
+  
+  @keyframes sweep {
+    from {
+      left: 0;
+      width: 0;
+    }
+    to {
+      left: 0;
+      width: 100%;
+    }
+  }
+  .boton1 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 15px;
+  }
+  .boton1:hover {
+    background-color: black;
+    color: white;
+  }
+    
