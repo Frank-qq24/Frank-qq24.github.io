@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frank24</title>
     <link rel="stylesheet" href="resources/css/style.css" />
+    <script src="https://kit.fontawesome.com/226a6aeb6f.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -28,10 +29,10 @@
             Hi, I'm <span> Frank Quintana</span><br>
             From Untels
           </h1>
-          <a href=""><img src="resources/images/lnk.png" alt=""></a>
-          <a href=""><img src="resources/images/fb.png" alt=""></a>
-          <a href=""><img src="resources/images/tw.png" alt=""></a>
-          <a href=""><img src="resources/images/ig.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/frank-quintana-quispe-91b990224" target="_blank"><img src="resources/images/lnk.png" alt=""></a>
+          <a href="https://www.facebook.com/frank.quintana.792/" target="_blank"><img src="resources/images/fb.png" alt=""></a>
+          <a href="https://twitter.com/frank_quintana_" target="_blank"><img src="resources/images/tw.png" alt=""></a>
+          <a href="https://www.instagram.com/frank_q_/" target="_blank"><img src="resources/images/ig.png" alt=""></a>
           <br>
           <a class="boton1" href="https://drive.google.com/file/d/1ZQJBRBBDJineCD4bBMOyFwC7v5jl6df5/view" target="_blank">Descargar CV</a>
         </div>
@@ -53,21 +54,67 @@
               en condiciones de alta presión.
             </p>
             <div class="tab-titles">
-              <div class="tab-links active-link">Skills</div>
-              <div class="tab-links">Educación</div>
-              <div class="tab-links">Experiencia</div>
+              <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+              <div class="tab-links" onclick="opentab('educacion')">Educación</div>
+              <div class="tab-links" onclick="opentab('experiencia')">Experiencia</div>
             </div>
-            <div class="tab-contents">
+            <div class="tab-contents active-tab" id="skills">
               <ul>
-                <li><span>UI?UX</span><br>Diseñador Web/App interfaces</li>
-                <li><span>Desarrollador Web</span><br>Web App Desarrollo</li>
-                <li><span>Desarrollador App</span><br>Construcción Android</li>
+                <li><span> UI/UX </span><br>Diseñador Web/App interfaces</li>
+                <li><span> Desarrollador Web/APP </span><br>Web App Desarrollo</li>
+                <li><span> Excel </span><br> Manejo de macros/ tablas dinamicas</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="educacion">
+              <ul>
+                <li><span> 2012 - 2017</span><br>Grado secundario en Colegio Privado Militarizado Max Uhle</li>
+                <li><span> 2019 - Actualidad </span><br>Pre grado en ingenieria de sistemas en la Universidad Nacional Tecnológica de Lima Sur</li>
+                <li><span> 2021 - Actualidad </span><br>Ingles Intermedio en Idioma UNTELS</li>
+                <li><span> 2023 - Actualidad </span><br>Especialiada en Gestion de proyectos en PKMO</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experiencia">
+              <ul>
+                <li><span> 2020/01 - 2020/03</span><br>Tay Loy SAT</li>
+                <li><span> 2021/02 - 2021/03</span><br>Infotecsis Peru</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div id="servicios">
+      <div class="conteiner">
+        <h1 class="sub-title">Mis Servicios</h1>
+          <div class="services-list">
+            <div class="">
+              <i class="fa-solid fa-code"></i>
+              <h2>Dasarrollo web/android</h2>
+              <p>hago disño web para distarerme de lo que se de lo que este mensando necisito air al gyu, se me esta haciendo tadera
+                asdasdasd ultima coas que pense.
+              </p>
+              <a href="#">Mas</a>
+            </div>
+            <div class="">
+              <i class="fa-solid fa-database"></i>
+              <h2>Diseño de Base de datos</h2>
+              <p>hago disño web para distarerme de lo que se de lo que este mensando necisito air al gyu, se me esta haciendo tadera
+                asdasdasd ultima coas que pense.
+              </p>
+              <a href="#">Mas</a>
+            </div>
+            <div class="">
+              <i class="fa-solid fa-compass"></i>
+              <h2>Dirección de proyectos</h2>
+              <p>hago disño web para distarerme de lo que se de lo que este mensando necisito air al gyu, se me esta haciendo tadera
+                asdasdasd ultima coas que pense.
+              </p>
+              <a href="#">Mas</a>
+            </div>
+          </div>
+      </div>
+    </div>
+
     <!--Importando java script-->
     <script src="resources/js/script.js"></script>
   </body>
